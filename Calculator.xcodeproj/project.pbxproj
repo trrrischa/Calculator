@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		E182CD781DE4335000DFFE94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E182CD771DE4335000DFFE94 /* main.m */; };
-		E182CD7B1DE4335000DFFE94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E182CD7A1DE4335000DFFE94 /* AppDelegate.m */; };
-		E182CD7E1DE4335000DFFE94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E182CD7D1DE4335000DFFE94 /* ViewController.m */; };
+		E182CD7B1DE4335000DFFE94 /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E182CD7A1DE4335000DFFE94 /* CalculatorAppDelegate.m */; };
+		E182CD7E1DE4335000DFFE94 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E182CD7D1DE4335000DFFE94 /* CalculatorViewController.m */; };
 		E182CD811DE4335000DFFE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E182CD7F1DE4335000DFFE94 /* Main.storyboard */; };
 		E182CD831DE4335000DFFE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E182CD821DE4335000DFFE94 /* Assets.xcassets */; };
 		E182CD861DE4335000DFFE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E182CD841DE4335000DFFE94 /* LaunchScreen.storyboard */; };
-		E182CD911DE4335100DFFE94 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E182CD901DE4335100DFFE94 /* CalculatorTests.m */; };
+		E182CD9D1DE43EF700DFFE94 /* StringCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = E182CD9C1DE43EF700DFFE94 /* StringCalc.m */; };
+		E182CDA11DE43F7900DFFE94 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = E182CDA01DE43F7900DFFE94 /* Stack.m */; };
+		E182CDA51DE44CA800DFFE94 /* Stack_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E182CDA41DE44CA800DFFE94 /* Stack_Test.m */; };
+		E182CDA91DE44DB400DFFE94 /* StringCalc_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E182CDA81DE44DB400DFFE94 /* StringCalc_Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +32,22 @@
 /* Begin PBXFileReference section */
 		E182CD731DE4335000DFFE94 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E182CD771DE4335000DFFE94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E182CD791DE4335000DFFE94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E182CD7A1DE4335000DFFE94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E182CD7C1DE4335000DFFE94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E182CD7D1DE4335000DFFE94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E182CD791DE4335000DFFE94 /* CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		E182CD7A1DE4335000DFFE94 /* CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorAppDelegate.m; sourceTree = "<group>"; };
+		E182CD7C1DE4335000DFFE94 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		E182CD7D1DE4335000DFFE94 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		E182CD801DE4335000DFFE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E182CD821DE4335000DFFE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E182CD851DE4335000DFFE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E182CD871DE4335000DFFE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E182CD8C1DE4335100DFFE94 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E182CD901DE4335100DFFE94 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
 		E182CD921DE4335100DFFE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E182CD9B1DE43EF700DFFE94 /* StringCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringCalc.h; path = StringCalc/StringCalc.h; sourceTree = "<group>"; };
+		E182CD9C1DE43EF700DFFE94 /* StringCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringCalc.m; path = StringCalc/StringCalc.m; sourceTree = "<group>"; };
+		E182CD9F1DE43F7900DFFE94 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = StringCalc/Stack.h; sourceTree = "<group>"; };
+		E182CDA01DE43F7900DFFE94 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stack.m; path = StringCalc/Stack.m; sourceTree = "<group>"; };
+		E182CDA41DE44CA800DFFE94 /* Stack_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack_Test.m; sourceTree = "<group>"; };
+		E182CDA81DE44DB400DFFE94 /* StringCalc_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCalc_Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +89,15 @@
 		E182CD751DE4335000DFFE94 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				E182CD791DE4335000DFFE94 /* AppDelegate.h */,
-				E182CD7A1DE4335000DFFE94 /* AppDelegate.m */,
-				E182CD7C1DE4335000DFFE94 /* ViewController.h */,
-				E182CD7D1DE4335000DFFE94 /* ViewController.m */,
+				E182CD791DE4335000DFFE94 /* CalculatorAppDelegate.h */,
+				E182CD7A1DE4335000DFFE94 /* CalculatorAppDelegate.m */,
+				E182CD7C1DE4335000DFFE94 /* CalculatorViewController.h */,
+				E182CD7D1DE4335000DFFE94 /* CalculatorViewController.m */,
 				E182CD7F1DE4335000DFFE94 /* Main.storyboard */,
 				E182CD821DE4335000DFFE94 /* Assets.xcassets */,
 				E182CD841DE4335000DFFE94 /* LaunchScreen.storyboard */,
 				E182CD871DE4335000DFFE94 /* Info.plist */,
+				E182CD9E1DE43EFE00DFFE94 /* StringCalc */,
 				E182CD761DE4335000DFFE94 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -105,10 +114,22 @@
 		E182CD8F1DE4335100DFFE94 /* CalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				E182CD901DE4335100DFFE94 /* CalculatorTests.m */,
+				E182CDA41DE44CA800DFFE94 /* Stack_Test.m */,
+				E182CDA81DE44DB400DFFE94 /* StringCalc_Test.m */,
 				E182CD921DE4335100DFFE94 /* Info.plist */,
 			);
 			path = CalculatorTests;
+			sourceTree = "<group>";
+		};
+		E182CD9E1DE43EFE00DFFE94 /* StringCalc */ = {
+			isa = PBXGroup;
+			children = (
+				E182CD9F1DE43F7900DFFE94 /* Stack.h */,
+				E182CDA01DE43F7900DFFE94 /* Stack.m */,
+				E182CD9B1DE43EF700DFFE94 /* StringCalc.h */,
+				E182CD9C1DE43EF700DFFE94 /* StringCalc.m */,
+			);
+			name = StringCalc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E182CD7E1DE4335000DFFE94 /* ViewController.m in Sources */,
-				E182CD7B1DE4335000DFFE94 /* AppDelegate.m in Sources */,
+				E182CD7E1DE4335000DFFE94 /* CalculatorViewController.m in Sources */,
+				E182CD9D1DE43EF700DFFE94 /* StringCalc.m in Sources */,
+				E182CD7B1DE4335000DFFE94 /* CalculatorAppDelegate.m in Sources */,
+				E182CDA11DE43F7900DFFE94 /* Stack.m in Sources */,
 				E182CD781DE4335000DFFE94 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E182CD911DE4335100DFFE94 /* CalculatorTests.m in Sources */,
+				E182CDA51DE44CA800DFFE94 /* Stack_Test.m in Sources */,
+				E182CDA91DE44DB400DFFE94 /* StringCalc_Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = SEUUY5JL47;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -365,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = SEUUY5JL47;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

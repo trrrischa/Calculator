@@ -6,13 +6,13 @@
 //  Copyright © 2016 Ekaterina. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "CalculatorAppDelegate.h"
 
-@interface AppDelegate ()
+@interface CalculatorAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation CalculatorAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
